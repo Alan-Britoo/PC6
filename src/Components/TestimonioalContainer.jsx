@@ -5,8 +5,8 @@ import jenniePhoto from "../assets/image-jennie.jpg";
 
 export default function TestimonioalContainer() {
   return (
-    <section className="bg-white pt-16">
-      <h2 className="text-center uppercase font-Fraunces mb-16 text-Grayish-blue">Client testimonials</h2>
+    <section className='px-6 pt-16 desktop:pt-40 bg-white'>
+      <h2 className="text-center uppercase font-Fraunces mb-16 text-Grayish-blue xl:text-xl desktop:mb-20'">Client testimonials</h2>
       <div className="lg:flex lg:w-[900px] mx-auto xl:w [1110px] ">
         <Testimonial
           img={emilyPhoto}
